@@ -1,4 +1,5 @@
 provider "aws" {
-  region                   = "eu-central-1"
-  shared_credentials_files = ["/Users/rahulwagh/.aws/credentials"]
+  access_key = var.access
+  secret_key = var.secret
+  region     = "eu-central-1"
 }
